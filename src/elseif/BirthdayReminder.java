@@ -21,11 +21,22 @@ public class BirthdayReminder {
 		System.out.println(wantsBirthday);
 		// 4. if user asked for "mom"
 			//print mom's birthday
+		if(wantsBirthday.equals("mom")) {
+			System.out.println(momsBirthday);
+		}
 		// 5. if user asked for "dad"
 			// print dad's birthday
+		if(wantsBirthday.equals("dad")) {
+			System.out.println(dadsBirthday);
+		}
 		// 6. if user asked for your name
 			// print myBirthday
+		if(wantsBirthday.equals("Raunak")) {
+			System.out.println(myBirthday);
+		}
 		//7. otherwise print "Sorry, i don't remember that person's birthday!"
-
+		else {
+			System.out.println("Sorry, i don't remember that person's birthday!");
+		}
 	} 
 }
