@@ -20,8 +20,9 @@ public class WalkOfFame {
 			for(int i=0;i<5;i++) {
 				rob.move(30);
 				rob.turn(144);
+				
 			}
-			rob.setX(75+50i);
+			rob.setX(75+50*j);
 		}
 		rob.hide();
 		// 3. Set the size of the star to 30.
